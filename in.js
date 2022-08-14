@@ -18,14 +18,14 @@
 //   };
 
 
-let lekey = document.querySelector(".le-keys");
-let numcode = document.querySelector(".num-codes");
-let codes= document.querySelector(".codess");
-let keys = document.querySelector(".keyss");
+let lekey = document.querySelector(".code");
+let numcode = document.querySelector(".name");
+let codes= document.querySelector(".key");
+let keys = document.querySelector(".spanCode");
 
 document.addEventListener("keypress", function(e){
-  lekey.innerText = `${e.key}`;
-  numcode.innerText = `${e.charCode}`;
-  codes.innerText =`${e.charCode}`;
-  keys.innerText =`${e.key}`;
+  lekey.innerText = `${e.keyCode}`;
+  numcode.innerText = `${e.key}`;
+  codes.innerText =`${e.key}`;
+  keys.innerText =`${e.keyCode}`;
 })
