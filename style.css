@@ -4,8 +4,8 @@
 
 body{
     background-color: #AE7CFE;
-    /* padding: 0;
-    margin: 0; */
+    /* padding: 0; */
+    margin: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
